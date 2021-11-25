@@ -7,3 +7,5 @@ https://pyautogui.readthedocs.io/en/latest/quickstart.html
 Возврат мыши в 00, если ошибка: pyautogui.FAILSAFE = True
 Ховер мыши в координаты с выдержкой: pyautogui.moveTo(x, y, duration=num_seconds)
 Перемещение мыши от текущего положения: pyautogui.moveRel(xOffset, yOffset, duration=num_seconds)
+Перетаскивание мышью: pyautogui.dragTo(x, y, duration=num_seconds)
+Перетаскивание мышь относительно ее текущего положения: pyautogui.dragRel(xOffset, yOffset, duration=num_seconds)
