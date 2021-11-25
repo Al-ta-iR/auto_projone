@@ -1,1 +1,9 @@
 https://pyautogui.readthedocs.io/en/latest/quickstart.html
+
+Текущая позиция положение X Y мыши: pyautogui.position()
+Размеры экрана: pyautogui.size()
+Находится ли мышь в экране?: pyautogui.onScreen(x, y)
+Пауза: pyautogui.PAUSE = 2.5
+Возврат мыши в 00, если ошибка: pyautogui.FAILSAFE = True
+Ховер мыши в координаты с выдержкой: pyautogui.moveTo(x, y, duration=num_seconds)
+Перемещение мыши от текущего положения: pyautogui.moveRel(xOffset, yOffset, duration=num_seconds)
